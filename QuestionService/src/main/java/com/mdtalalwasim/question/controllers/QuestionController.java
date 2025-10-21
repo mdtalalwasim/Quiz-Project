@@ -9,7 +9,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/question")
 public class QuestionController {
-//hello
+
     private QuestionService questionService;
     public QuestionController(QuestionService questionService) {
         this.questionService = questionService;
